@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-expo-app@latest . --template blank)",
+      "Read(//usr/local/bin/**)",
+      "Read(//opt/homebrew/bin/**)",
+      "Read(//Users/bruu/.nvm/**)",
+      "Read(//Users/bruu/.volta/**)",
+      "Read(//usr/local/lib/**)",
+      "Read(//Users/bruu/**)",
+      "Bash(zsh -l -c \"which node npm npx\")"
+    ]
+  }
+}
